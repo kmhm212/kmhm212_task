@@ -10,6 +10,8 @@ label {
     color: red;
 }
 .tasks li {
-    display: flex;
     gap: 5px;
+}
+.tasks li form {
+    display: inline-block;
 }
