@@ -31,6 +31,7 @@
             <textarea name="body" id="" cols="30" rows="10">{{ old('body', $task->body) }}</textarea>
         </p>
         <input type="submit" value="更新">
+        <button onclick="location.href='/tasks'">一覧に戻る</button>
     </form>
 
     @endsection

@@ -7,7 +7,7 @@
     <h2>タスク一覧</h2>
     @if ($tasks)
         @foreach ($tasks as $task)
-            <ul>
+            <ul class="tasks">
                 <li>
                     <a href="{{ route('tasks.show', $task) }}">{{ $task->title }}</a>
                     <form action="{{ route('tasks.destroy', $task) }}" method="POST">

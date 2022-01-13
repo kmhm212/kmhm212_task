@@ -7,11 +7,11 @@
     <h2>タスク詳細</h2>
 
     <p>
-        【タスク】
+        【タスク】<br>
         {{ $task->title }}
     </p>
     <p>
-        【内容】
+        【内容】<br>
         {{ $task->body }}
     </p>
     <div class="btn-group">
