@@ -15,3 +15,6 @@ label {
 .tasks li form {
     display: inline-block;
 }
+.edit-form {
+    display: inline;
+}
