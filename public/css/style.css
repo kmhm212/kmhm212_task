@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+label {
+    display: block;
+}
+.btn-group {
+    display: flex;
+}
+.error {
+    color: red;
+}
+.tasks li {
+    gap: 5px;
+}
+.tasks li form {
+    display: inline-block;
+}
+.edit-form {
+    display: inline;
+}
